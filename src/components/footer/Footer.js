@@ -13,7 +13,7 @@ export default function Footer() {
           {emoji("Made with ❤️ by KISHOR REDDY")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by MUKUNDH{/*<a href=""></a>*/}
+          {/*<a href=""></a>*/}
         </p>
       </div>
     </Fade>

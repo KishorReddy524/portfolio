@@ -43,9 +43,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Integration of third party services such as Firebase/ AWS")
   ],
 
   softwareSkills: [
@@ -77,10 +75,10 @@ const skillsSection = {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // }
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
@@ -110,7 +108,7 @@ const educationInfo = {
       schoolName: "Masai School",
       logo: require("./assets/images/masai.358f8f1f.jpeg"),
       subHeader: "MERN STACK",
-      duration: "NOVEMBER 2021 - JULY 2022",
+      duration: "NOVEMBER 2021 - JUNE 2022",
       desc: "Learned MERN stack And DATA STRUCTURES ALGORITHM",
       descBullets: ["Solved more than 600+ DSA problems"]
     },
@@ -201,7 +199,7 @@ const bigProjects = {
         },
         {
           name: "Website Demo",
-          url: "https://bestbuy-clone-website.netlify.app/"
+          url: "https://upgradeprojectkishor.netlify.app/"
         }
       ]
     }
