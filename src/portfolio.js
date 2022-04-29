@@ -12,25 +12,24 @@ const illustration = {
 
 const greeting = {
   username: "Kishor Reddy ",
-  title: "Hi all, I'm Kishor Reddy",
+  title: "Hi all, I'm Kishor",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ei7aAkqAzL4_HmrBTJqRX-Zg55Mtm9vM/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/181o-wSJod3q4DpRzVmFoczVBQAwpWYDJ/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/mukundakamatham",
-  linkedin: "https://www.linkedin.com/in/mukunda-k/",
-  gmail: "mukundakamatham@gmail.com",
-  gitlab: "https://gitlab.com/mukundakamatham",
-  facebook: "https://www.facebook.com/people/Mukesh-Kumar/100010327233253/",
-  instagram: "https://www.instagram.com/iammukundha/",
-  twitter: "https://twitter.com/MUKUNDAK15?t=sPZKpRyb_b2ygmXuAN4-sA&s=09",
+  github: "https://github.com/KishorReddy524",
+  linkedin: "https://www.linkedin.com/in/kishor-reddy/",
+  gmail: "kishorreddycmasai@gmail.com",
+  // facebook: "https://www.facebook.com/people/Mukesh-Kumar/100010327233253/",
+  // instagram: "https://www.instagram.com/iammukundha/",
+  // twitter: "https://twitter.com/MUKUNDAK15?t=sPZKpRyb_b2ygmXuAN4-sA&s=09",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -75,10 +74,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -89,19 +84,19 @@ const skillsSection = {
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -115,7 +110,7 @@ const educationInfo = {
       schoolName: "Masai School",
       logo: require("./assets/images/masai.358f8f1f.jpeg"),
       subHeader: "MERN STACK",
-      duration: "june 2021 - January 2022",
+      duration: "NOVEMBER 2021 - JULY 2022",
       desc: "Learned MERN stack And DATA STRUCTURES ALGORITHM",
       descBullets: ["Solved more than 600+ DSA problems"]
     },
@@ -178,33 +173,35 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I TRIED TO CLONE AND CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/www.mpl.live_ (1).png"),
-      projectName: "MPL.LIVE CLONE",
+      image: require("./assets/images/bestBuy.comLogo.png"),
+      projectName: "BEST BUY.COM CLONE",
       projectDesc:
-        "A web application to provide the information about online gaming platforms and generating app downloading links",
+        "A web application to provide the online store for shopping electronics gadgets all over the country ",
       footerLink: [
         {
           name: "Visit Github",
-          url: "https://github.com/mukundakamatham/mpl-website"
+          url: "https://github.com/KishorReddy524/bestbuy.com.git"
         },
         {
           name: "Website Demo",
-          url:
-            "https://htmlpreview.github.io/?https://raw.githubusercontent.com/dharmeshrao/MPL-project/master/mpl%20project/LANDING%20PAGE/landing.html"
+          url: "https://bestbuy-clone-website.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/www.firstcry.com_.png"),
-      projectName: "FIRSTCRY CLONE",
+      image: require("./assets/images/upGradeLogo.png"),
+      projectName: "UPGRADE CLONE",
       projectDesc:
-        "An online shop for baby, kids, & maternity products. Access-pass to expert validated advice & tips on pregnancy, parenting, baby care, and child development.",
+        "An online higher education platform providing industry-relevant programs designed and delivered in collaboration with world-class",
       footerLink: [
         {
           name: "Visit Website",
-          url:
-            "https://github.com/mukundakamatham/firstcry-clone/tree/master/Firstcry-Project"
+          url: "https://github.com/KishorReddy524/UpGradeBackEnd.git"
+        },
+        {
+          name: "Website Demo",
+          url: "https://bestbuy-clone-website.netlify.app/"
         }
       ]
     }
@@ -296,15 +293,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or want to hire me  or just want to say hi? My Inbox is open for all.",
-  number: "+91-8660092970",
-  email_address: "mukundakamatham@gmail.com"
+  number: "+91-9113205485",
+  email_address: "kishorreddycmasai@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
